@@ -10,7 +10,7 @@ namespace ShoppingCart_ASP.NET_MVC5.Models
     {
         public int customer_id { get; set; }
 
-        [Required(ErrorMessage = "Please enter a username.")]
+        [Required(ErrorMessage = "Please enter a valid username.")]
         public string username { get; set; }
 
         [Required(ErrorMessage = "Please enter a password.")]
